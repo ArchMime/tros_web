@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>tros web</title>
+</head>
+
+<body onscroll="">
+
+    <div class="container" >
+        
+        <div class="header">
+            <div class="logo-content">
+                <img class="logo" src="img/logo.png" alt="tros">
+            </div>
+            <div class="parrafo">
+                <h2 class="nombre">TROS S.R.L.</h2>
+                <p class="resenna">(Reseña a editar) Tros es una empresa prestadora de servicios de instaación y construcción, conntamos con especialistas en diversas areas y trabajamos en distintas zonas de capital y gran Buenos Aires.</p>
+            </div>
+        </div>
+
+
+        <div class="row">
+
+            <div class="lista col-sm-12 col-lg-4">
+                <ul class="list-group">
+                    <li class="list-group-item"><a class="btn">Cabinas y mamparas</a></li>
+                    <li class="list-group-item">
+                        <a href="#clpGrigeria" class="btn" data-toggle="collapse" role="button" aria-expanded="false"
+                            aria-controls="clpGrigeria">Grifería</a>
+                        <div class="collapse" id="clpGrigeria">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item" onclick="setMapa('norte')">Duchas</li>
+                                <li class="list-group-item" onclick="setMapa('oeste')">Cocina</li>
+                                <li class="list-group-item" onclick="setMapa('sur')">Bidet</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#clpArtBanno" class="btn" data-toggle="collapse" role="button" aria-expanded="false"
+                            aria-controls="clpArtBanno">Artefactos de baño</a>
+                        <div class="collapse" id="clpArtBanno">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Inodoros</li>
+                                <li class="list-group-item">Bidet</li>
+                                <li class="list-group-item">Vanitory</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <a class="btn" href="#clpGas" data-toggle="collapse" role="button" aria-expanded="false"
+                            aria-controls="clpGas">Gas</a>
+                        <div class="collapse" id="clpGas">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Termotanque</li>
+                                <li class="list-group-item">Cocina</li>
+                                <li class="list-group-item">calefon</li>
+                                <li class="list-group-item">Estufas sin salida</li>
+                                <li class="list-group-item">Estufas con saida</li>
+                                <li class="list-group-item">Anafe</li>
+                                <li class="list-group-item">Horno</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#clpElectricidad" class="btn" data-toggle="collapse" role="button"
+                            aria-expanded="false" aria-controls="clpElectricidad">Electricidad</a>
+                        <div class="collapse" id="clpElectricidad">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Panel calefactor</li>
+                                <li class="list-group-item">Anafe electrico</li>
+                                <li class="list-group-item">Termotanque</li>
+                                <li class="list-group-item">Iluminación</li>
+                                <li class="list-group-item">Horno Electrico</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#clpVentiladores" class="btn" data-toggle="collapse" role="button"
+                            aria-expanded="false" aria-controls="clpVentiladores">Ventiladores de techo</a>
+                        <div class="collapse" id="clpVentiladores">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Sin iluminación</li>
+                                <li class="list-group-item">Con iluminación</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#clpCampanas" class="btn" data-toggle="collapse" role="button" aria-expanded="false"
+                            aria-controls="clpCampanas">Campanas</a>
+                        <div class="collapse" id="clpCampanas">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Sin salida</li>
+                                <li class="list-group-item">Con saida</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list-group-item"><a class="btn">Instalacion de lavarropas y secarropas</a></li>
+                    <li class="list-group-item"><a class="btn">Instalacion de lavavajillas</a></li>
+                    <li class="list-group-item"><a class="btn">Instalacion de aire acondicionado</a></li>
+                    <li class="list-group-item"><a class="btn">Instalacion de cortinas</a></li>
+                    <li class="list-group-item">
+                        <a href="#clpPisos" class="btn" data-toggle="collapse" role="button" aria-expanded="false"
+                            aria-controls="clpPisos">Pisos</a>
+                        <div class="collapse" id="clpPisos">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Flotantes</li>
+                                <li class="list-group-item">Ceramicos</li>
+                                <li class="list-group-item">Porcelanatos</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="list-group-item"><a class="btn">Pintura</a></li>
+                    <li class="list-group-item"><a class="btn">Placas de yeso</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-lg-6 fixed-left" id="desc">
+                <div class="descripcion">
+                    <p>reaizamos nuestro trabajo en distintas zonas de capital y gran buenos aires</p>
+                </div>
+                <div class="mapa">
+                    <img class="img-fluid" id="mapa" src="img/Mapa_base_Gran_Buenos_Aires.png" alt="mapa gran buenos aires">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer col-12">
+            <h3>footer</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, expedita et debitis exercitationem nulla maxime sequi repellat quae nobis facilis odio laudantium officia nemo amet. Nulla repellat laboriosam accusantium pariatur!</p>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
